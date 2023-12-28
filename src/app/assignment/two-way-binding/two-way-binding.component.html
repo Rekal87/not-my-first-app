@@ -1,0 +1,12 @@
+<input type="text" class="form-control" [(ngModel)]="username" />
+<p>{{ username }}</p>
+<button class="btn btn-primary" (click)="onResetName()">Reset</button>
+<p class="alert alert-warning alert-dismissible fade show" role="alert">
+  {{ userMessage }}
+  <button
+    type="button"
+    class="btn-close"
+    data-bs-dismiss="alert"
+    aria-label="Close"
+  ></button>
+</p>

@@ -1,0 +1,14 @@
+<button class="btn btn-primary" (click)="onUserClick()">Display Details</button>
+<!-- <button class="btn btn-primary" (click)="isButtonClicked = !isButtonClicked">
+  Display Details
+</button> -->
+
+<p *ngIf="isButtonClicked">Secret Password = Catfish</p>
+
+<div
+  *ngFor="let btnClk of buttonClickedArr; let i = index"
+  [ngStyle]="{ backgroundColor: i >= 4 ? 'blue' : 'transparent' }"
+  [ngClass]="{ 'white-text': i >= 4 }"
+>
+  {{ btnClk }}
+</div>
