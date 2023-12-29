@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./two-way-binding.component.css'],
 })
 export class TwoWayBindingComponent {
-  username = '';
-  userMessage = '';
+  username: string = '';
+  userMessage: string = '';
 
   onResetName() {
     if (this.username.length > 0) {

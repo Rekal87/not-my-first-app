@@ -8,6 +8,9 @@ import { WarningAlertComponent } from './assignment/warning-alert/warning-alert.
 import { SuccessAlertComponent } from './assignment/success-alert/success-alert.component';
 import { TwoWayBindingComponent } from './assignment/two-way-binding/two-way-binding.component';
 import { DirectivesComponent } from './assignment/directives/directives.component';
+import { GameControlComponent } from './assignment/bind-it/game-control/game-control.component';
+import { OddComponent } from './assignment/bind-it/odd/odd.component';
+import { EvenComponent } from './assignment/bind-it/even/even.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +21,9 @@ import { DirectivesComponent } from './assignment/directives/directives.componen
     SuccessAlertComponent,
     TwoWayBindingComponent,
     DirectivesComponent,
+    GameControlComponent,
+    OddComponent,
+    EvenComponent,
   ],
   imports: [BrowserModule, FormsModule],
   providers: [],
