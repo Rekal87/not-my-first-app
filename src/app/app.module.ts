@@ -13,6 +13,7 @@ import { OddComponent } from './assignment/bind-it/odd/odd.component';
 import { EvenComponent } from './assignment/bind-it/even/even.component';
 import { OnlyOddComponent } from './only-odd/only-odd.component';
 import { BasicHighlightDirective } from './only-odd/basic-highlight/basic-highlight.directive';
+import { BetterHighlightDirective } from './only-odd/better-highlight/better-highlight.directive';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { BasicHighlightDirective } from './only-odd/basic-highlight/basic-highli
     EvenComponent,
     OnlyOddComponent,
     BasicHighlightDirective,
+    BetterHighlightDirective,
   ],
   imports: [BrowserModule, FormsModule],
   providers: [],
