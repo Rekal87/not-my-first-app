@@ -11,6 +11,7 @@ import { DirectivesComponent } from './assignment/directives/directives.componen
 import { GameControlComponent } from './assignment/bind-it/game-control/game-control.component';
 import { OddComponent } from './assignment/bind-it/odd/odd.component';
 import { EvenComponent } from './assignment/bind-it/even/even.component';
+import { OnlyOddComponent } from './only-odd/only-odd.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { EvenComponent } from './assignment/bind-it/even/even.component';
     GameControlComponent,
     OddComponent,
     EvenComponent,
+    OnlyOddComponent,
   ],
   imports: [BrowserModule, FormsModule],
   providers: [],
